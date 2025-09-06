@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Buyzaar — Your Marketplace, Simplified</title>
+  <meta name="description" content="Buyzaar — B2B marketplace connecting suppliers and buyers.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- animated background gradient is in CSS -->
+
+  <!-- Intro splash (CSS-only) with candle loader and SVG line-draw logo -->
+  <div class="intro" role="dialog" aria-hidden="false">
+    <svg class="logo-svg" viewBox="0 0 360 80" aria-hidden="true" focusable="false">
+      <g class="logo-line" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+        <path d="M8 64 V16 C8 8 20 8 28 8 H62 C78 8 86 16 86 32 C86 48 78 56 62 56 H28" />
+        <path d="M100 52 V16" />
+        <path d="M110 52 H140" />
+        <path d="M150 52 V16" />
+        <path d="M160 52 H190" />
+        <path d="M200 52 V16" />
+        <path d="M212 52 H258" />
+      </g>
+    </svg>
+
+    <div class="candle" aria-hidden="true">
+      <div class="wax"></div>
+      <div class="wick"></div>
+      <div class="flame"></div>
+      <div class="glow"></div>
+    </div>
+
+    <h1 class="intro__brand">Buyzaar</h1>
+    <p class="intro__tag">Your Marketplace, Simplified</p>
+  </div>
+
+  <!-- Top navigation -->
+  <header class="site-header" role="banner">
+    <div class="container header-grid">
+      <a class="logo" href="#home" aria-label="Buyzaar home">Buyzaar</a>
+      <nav class="site-nav" role="navigation" aria-label="Primary">
+        <ul>
+          <li><a href="#suppliers">Suppliers</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#buyers">Buyers</a></li>
+          <li><a href="#analytics">Analytics</a></li>
+        </ul>
+      </nav>
+      <div class="nav-cta">
+        <a class="btn cta-outline" href="#suppliers">See Suppliers Now</a>
+        <a class="btn cta-primary" href="#demo">Schedule a 5-min Demo</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="home">
+
+    <!-- HERO -->
+    <section class="hero container" id="hero" aria-labelledby="hero-title">
+      <div class="hero-left">
+        <h1 id="hero-title" class="hero-headline">Powering B2B trade with clarity</h1>
+        <p class="hero-sub">Buyzaar connects verified suppliers, structured catalogs and insight-driven analytics — all in one marketplace.</p>
+
+        <div class="hero-actions">
+          <a class="btn cta-primary hero-cta" href="#suppliers">See Suppliers Now</a>
+          <a class="btn cta-outline hero-cta" href="#demo">Schedule a 5-min Demo</a>
+        </div>
+
+        <ul class="kpis" aria-hidden="true">
+          <li><strong>2k+</strong> Suppliers</li>
+          <li><strong>Instant</strong> RFQs</li>
+          <li><strong>99.8%</strong> SLA</li>
+        </ul>
+      </div>
+
+      <div class="hero-right" aria-hidden="true">
+        <div class="preview-grid">
+          <figure class="preview-card">
+            <img src="Screenshot 2025-09-06 235912.png" alt="Dashboard preview" />
+          </figure>
+
+          <figure class="preview-card">
+            <img src="Screenshot 2025-09-06 235940.png" alt="Catalog preview" />
+          </figure>
+
+          <figure class="preview-card">
+            <img src="Screenshot 2025-09-07 000044.png" alt="Order flow preview" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- SVG divider (line-draw) -->
+    <div class="svg-divider" aria-hidden="true">
+      <svg viewBox="0 0 1200 60" preserveAspectRatio="none">
+        <path class="linepath" d="M20 40 C240 0 960 80 1180 20" fill="none" stroke-width="2" />
+      </svg>
+    </div>
+
+    <!-- Suppliers (logos) -->
+    <section id="suppliers" class="section container" aria-labelledby="suppliers-title">
+      <header class="section-head">
+        <h2 id="suppliers-title">Verified Suppliers</h2>
+        <p class="lead">Trusted manufacturers and wholesalers — discover and connect.</p>
+      </header>
+
+      <div class="logos">
+        <figure class="logo-pill"><img src="Screenshot 2025-09-07 000100.png" alt="Acme" /><figcaption>Acme</figcaption></figure>
+      </div>
+
+      <div class="suppliers-cta">
+        <a class="btn cta-primary" href="#suppliers">Explore Suppliers</a>
+        <a class="btn cta-outline" href="#demo">Request a Quote</a>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="section section-alt container" aria-labelledby="testimonials-title">
+      <header class="section-head">
+        <h2 id="testimonials-title">What customers say</h2>
+        <p class="lead">Small businesses to enterprise procurement teams trust Buyzaar.</p>
+      </header>
+
+      <div class="testimonials">
+        <blockquote class="testimonial card">
+          <p>“Buyzaar reduced our sourcing time by 40% — supplier discovery is so much faster.”</p>
+          <footer>— Priya J., Procurement Lead</footer>
+        </blockquote>
+
+        <blockquote class="testimonial card">
+          <p>“The RFQ templates and analytics helped us save 12% on landed costs.”</p>
+          <footer>— Ramesh K., Operations</footer>
+        </blockquote>
+
+        <blockquote class="testimonial card">
+          <p>“Integration was painless. The dashboard is clean and fast.”</p>
+          <footer>— Mira S., Head of Buying</footer>
+        </blockquote>
+      </div>
+
+      <!-- Shaft logo moved here -->
+      <div class="logo-post-testimonials">
+        <figure class="logo-pill"><img src="Screenshot 2025-09-07 000109.png" alt="Shaft" /><figcaption></figcaption></figure>
+      </div>
+
+      <div class="test-cta">
+        <a class="btn cta-primary" href="#demo">Schedule a 5-min Demo</a>
+      </div>
+    </section>
+
+    <!-- Product highlights -->
+    <section id="products" class="section container" aria-labelledby="products-title">
+      <header class="section-head">
+        <h2 id="products-title">Product Highlights</h2>
+        <p class="lead">Built for procurement teams: speed, visibility and controls.</p>
+      </header>
+
+      <div class="feature-grid">
+        <article class="feature-card card" tabindex="0">
+          <h3>Structured Catalogs</h3>
+          <p>Search by attributes, HS codes, and supplier ratings.</p>
+          <a class="link-cta" href="#products">See Suppliers Now</a>
+        </article>
+
+        <article class="feature-card card" tabindex="0">
+          <h3>Secure RFQs</h3>
+          <p>Send, compare and negotiate in one place.</p>
+          <a class="link-cta" href="#suppliers">Request a Quote</a>
+        </article>
+
+        <article class="feature-card card" tabindex="0">
+          <h3>Operational Analytics</h3>
+          <p>Visibility across vendors, spend, and SLAs.</p>
+          <a class="link-cta" href="#analytics">View Demo</a>
+        </article>
+      </div>
+
+      <!-- Shaft logo removed from here -->
+    </section>
+
+    <!-- CTA banner -->
+    <section id="demo" class="cta-banner container">
+      <h2 class="cta-headline">Ready to streamline procurement?</h2>
+      <p>Book a short demo and see Buyzaar in action.</p>
+      <div class="cta-row">
+        <a class="btn cta-primary" href="#contact">Schedule a 5-min Demo</a>
+        <a class="btn cta-outline" href="#suppliers">See Suppliers Now</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-grid">
+      <small>© 2025 Buyzaar • Your Marketplace, Simplified</small>
+      <nav aria-label="Footer">
+        <a href="#privacy">Privacy</a> • <a href="#terms">Terms</a> • <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Pure CSS help drawer (checkbox hack) -->
+  <input id="help-toggle" class="help-toggle" type="checkbox" aria-hidden="true" />
+  <aside class="help-drawer" aria-hidden="false">
+    <label for="help-toggle" class="help-pill">Help</label>
+    <div class="help-panel">
+      <h4>Help & Queries</h4>
+      <p>Quick questions? Email <a href="mailto:support@buyzaar.com">support@buyzaar.com</a> or schedule a demo.</p>
+      <a class="btn cta-outline" href="#demo">Schedule Demo</a>
+    </div>
+  </aside>
+
+</body>
+</html>
